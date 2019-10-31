@@ -1,4 +1,4 @@
-#include<stdio.h> 
+#include<stdio.h> //HEADERFILE
 int main()
 {
    int c, first, last, middle, n, search, array[100];
@@ -27,4 +27,4 @@ int main()
       printf("Not found! %d is not present in the list.\n", search);
    return 0;  
 }
-
+//END
