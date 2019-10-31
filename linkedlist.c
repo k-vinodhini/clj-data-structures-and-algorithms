@@ -1,6 +1,6 @@
 Live Demo
 
-#include <stdio.h>
+#include <stdio.h>//HEADER
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -25,7 +25,7 @@ void printList() {
       ptr = ptr->next;
    }
 	
-   printf(" ]");
+   printf(" ]");//PRINTING
 }
 
 //insert link at the first location
@@ -79,7 +79,7 @@ struct node* find(int key) {
    struct node* current = head;
 
    //if list is empty
-   if(head == NULL) {
+   if(head == NULL) {//DECISIONMAKING_STATEMENTS
       return NULL;
    }
 
@@ -249,3 +249,4 @@ void main() {
    printf("\nList after reversing the data: ");
    printList();
 }
+//END
