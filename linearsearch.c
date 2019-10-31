@@ -1,5 +1,5 @@
   
-#include <stdio.h> 
+#include <stdio.h> //HEADER
   
 int search(int arr[], int n, int x) 
 { 
@@ -10,7 +10,7 @@ int search(int arr[], int n, int x)
     return -1; 
 } 
   
-int main(void) 
+int main(void) //MAIN
 { 
     int arr[] = { 2, 3, 4, 10, 40 }; 
     int x = 10; 
@@ -21,3 +21,4 @@ int main(void)
                             result); 
     return 0; 
 } 
+//END
